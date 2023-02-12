@@ -1,0 +1,92 @@
+body{
+    background-color: red;
+    font-family: roboto;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+h3{
+    text-align: center;
+}
+
+.container{
+    width: max-content;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    padding: 40px;
+    padding-bottom: 120px;
+}
+
+.subcontainer1{
+    margin-right: 40px;
+}
+
+.subcontainer1 table *{
+    font-size: 8pt;
+    padding: 3px;
+    text-align: center;
+}
+
+.subcontainer2 table *{
+    font-size: 10px;
+}
+
+.subcontainer2 table tr td:nth-child(1){
+    padding-right: 10px;
+}
+
+.subsubcontainer{
+    margin: auto;
+    width: max-content;
+}
+
+.ubah{
+    margin-top: 20px;
+}
+
+.tombol{
+    border-radius: 0;
+    border: 0;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(60, 60, 255);
+    color: white;
+    border-radius: 50px;
+    font-size: 10pt;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+.tombol:nth-child(1){
+    margin-right: 10px;
+}
+
+.tombol:hover{
+    background-color: blue;
+    transform: scale(1.05,1.05);
+    cursor: pointer;
+    font-size: 9.5pt;
+}
+
+.update{
+    color: rgb(51, 51, 255);
+    text-decoration: none;
+}
+.update:hover{
+    color: blue;
+}
+
+.delete{
+    color: rgb(255, 66, 66);
+    text-decoration: none;
+}
+
+.delete:hover{
+    color: red;
+}

@@ -14,3 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'ApotekController@index');
+Route::get('/update/{kode}', 'ApotekController@edit');
+Route::get('/hapus/{kode}', 'ApotekController@hapus');
+Route::post('/tambah', 'ApotekController@tambah');
+Route::post('/update', 'ApotekController@perbarui');
+Route::post('/kelola', 'ApotekController@kelola');
